@@ -1,0 +1,129 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #66BFBF
+}
+
+h2 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.5rem;
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: 'Merriweather', serif;
+  color: #11999E
+}
+
+a {
+  color: #11999E
+}
+
+a:hover{
+  color: white;
+}
+
+p {
+  color: #40514E;
+}
+
+hr {
+  border-top: 7px dotted lightgrey;
+  border-bottom-style: none;
+  width: 5%;
+}
+
+.profile-image {
+  border-radius: 50%;
+}
+
+.profile-info {
+  width: 75%;
+  margin: auto;
+}
+
+.top-container {
+  background-color: #ebe6e6;
+  position: relative;
+  padding-top: 100px;
+}
+
+.mid-container {
+
+}
+.profile{
+  margin: 50px auto 50px auto;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  margin-top: 120px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.skills{
+  margin: 50px auto 50px auto;
+}
+.skill-row {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-image {
+  border-radius: 50%;
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.myButton {
+  box-shadow: inset 1px 2px 13px 0px #29bbff;
+  background: linear-gradient(to bottom, #2dabf9 5%, #0688fa 100%);
+  background-color: #2dabf9;
+  border-radius: 7px;
+  border: 1px none #0b0e07;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: 'Merriweather', serif;
+  font-size: 16px;
+  padding: 9px 23px;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+.myButton:hover {
+  background: linear-gradient(to bottom, #0688fa 5%, #2dabf9 100%);
+  background-color: #0688fa;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin: 30px;
+}
